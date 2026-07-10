@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+printf 'bad path C:\\temp\\q and a tab\there\n' >&2
+exit 7

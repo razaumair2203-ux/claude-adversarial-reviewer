@@ -1,0 +1,1 @@
+{"session_id":"stress-invalid","structured_output":{"verdict":"approved","review_quality":"valid","summary":"Contradictory fixture.","findings":[{"severity":"medium","category":"testing","location":"tests/example.test.ts","claim":"Missing test.","evidence":"No test is present in the bundle.","recommended_action":"Add a test."}],"remaining_risks":[]}}

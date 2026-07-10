@@ -1,0 +1,29 @@
+# Review contract
+
+## Mode
+`audit | plan | feasibility`
+
+## User request
+State the original intent without reinterpretation.
+
+## Acceptance criteria
+List observable outcomes.
+
+## Explicit exclusions
+List what must remain out of scope.
+
+## Builder summary
+Describe what Codex changed or proposes.
+
+## Diff or plan
+Include the focused patch or numbered plan.
+
+## Relevant context
+Include only excerpts required to understand the change. Label every excerpt with its repository path.
+
+## Verification evidence
+Include commands, exit status, and concise output. Never claim a command ran when it did not.
+
+## Known constraints and uncertainties
+List platform, compatibility, dependency, migration, and unresolved assumptions.
+

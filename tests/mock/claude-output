@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+cat -- "${MOCK_CLAUDE_OUTPUT:?}"
+exit "${MOCK_CLAUDE_EXIT:-0}"
