@@ -4,7 +4,7 @@
 
 Claude Adversarial Review - Lite is a Codex skill for independent, audit-first review through Claude Code CLI. It freezes a focused review bundle, invokes Claude non-interactively with read-only permissions and schema-constrained output, detects repository mutation, and requires Codex to validate findings before fixes.
 
-It is the reversed companion to [Adversarial Reviewer Lite](https://github.com/razaumair2203-ux/adversarial-reviewer-lite). The two are deliberately kept as mirror siblings: the same policy layer (human-review floor, rubric checklists, strict mode) and the same reporting procedure (finding evaluation, audit report, HTML report structure, terminal operator summary) — differing only in direction and transport. Here Codex builds and Claude reviews through schema-constrained JSON; there Claude Code builds and Codex reviews through a markdown verdict contract:
+It is the reversed companion to [Codex Adversarial Review - Lite](https://github.com/razaumair2203-ux/codex-adversarial-review-lite). The two are deliberately kept as mirror siblings: the same policy layer (human-review floor, rubric checklists, strict mode) and the same reporting procedure (finding evaluation, audit report, HTML report structure, terminal operator summary) — differing only in direction and transport. Here Codex builds and Claude reviews through schema-constrained JSON; there Claude Code builds and Codex reviews through a markdown verdict contract:
 
 - frozen bundle by default instead of reviewer repository access;
 - JSON Schema output instead of textual verdict parsing;

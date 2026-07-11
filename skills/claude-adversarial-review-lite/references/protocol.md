@@ -46,7 +46,7 @@ For each finding, record decision, reason, and verification. Accept only finding
 
 ## Reporting
 
-This reporting procedure is shared verbatim with the sibling skill Adversarial Reviewer Lite (Claude Code builder / Codex reviewer) so both directions produce the same report regardless of which model built and which reviewed.
+This reporting procedure is shared verbatim with the sibling skill Codex Adversarial Review - Lite (Claude Code builder / Codex reviewer) so both directions produce the same report regardless of which model built and which reviewed.
 
 Present findings as a readable report before any code changes. For each finding: what the reviewer found in plain language, why it matters for the user's product (concrete scenario, not theory), the builder's recommended action with reasoning (`accept`, `reject`, `re-scope`, `defer`, `needs verification`), and the verification evidence or "not yet verified". Short audits may collect decisions per finding; longer audits present all recommendations first, then a batch decision table. Batching never weakens the sign-off rule.
 
