@@ -20,10 +20,11 @@ This workflow reduces correlated mistakes. It does not prove correctness or repl
 1. Codex builds or proposes a plan.
 2. You invoke `$claude-adversarial-review-lite`.
 3. Codex creates a focused bundle containing intent, acceptance criteria, diff/plan, relevant context, and verification.
-4. Claude reviews the frozen bundle without repository write access.
-5. The runner validates structured output and Codex checks that the repository did not change during review.
-6. Codex accepts, rejects, re-scopes, defers, or verifies every finding.
-7. You see the report before approving fixes.
+4. Codex shows you the bundle as concise bullets before dispatch and folds in anything you want to add — refined into checkable items — so Claude only reviews the contract you approved.
+5. Claude reviews the frozen bundle without repository write access.
+6. The runner validates structured output and Codex checks that the repository did not change during review.
+7. Codex accepts, rejects, re-scopes, defers, or verifies every finding.
+8. You see the report before approving fixes.
 
 ## Install
 
