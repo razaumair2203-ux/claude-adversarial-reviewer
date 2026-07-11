@@ -22,8 +22,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check shell syntax
         run: |
-          bash -n skills/claude-adversarial-reviewer/scripts/invoke-claude-review.sh
-          bash -n skills/claude-adversarial-reviewer/scripts/snapshot.sh
+          bash -n skills/claude-adversarial-review-lite/scripts/invoke-claude-review.sh
+          bash -n skills/claude-adversarial-review-lite/scripts/snapshot.sh
           bash -n scripts/install.sh
           bash -n tests/stress.sh
       - name: Stress test POSIX runner
